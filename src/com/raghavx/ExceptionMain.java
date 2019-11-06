@@ -1,5 +1,8 @@
 package com.raghavx;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class ExceptionMain {
 /*
  * git status 
@@ -13,7 +16,20 @@ public class ExceptionMain {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		int a = 10, b = 0;
+		//System.out.println(a/b);
+		
+		
+		try {
+			FileInputStream fis = new FileInputStream("");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Object obj = null;
+		obj.toString();
+		
 
 	}
 
