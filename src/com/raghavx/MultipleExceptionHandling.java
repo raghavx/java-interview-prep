@@ -28,6 +28,14 @@ public class MultipleExceptionHandling {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		try {
+			meh.badAirQualityException();
+			meh.iOException();
+		} catch (BadAirQualityException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
 	}
 
 }
