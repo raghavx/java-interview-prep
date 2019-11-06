@@ -7,6 +7,8 @@ public class ExceptionMain {
 	/*
 	 * git status git add . git commit -m "message " git push
 	 * 
+	 * can catch block be empty - yes 
+	 * finally can also be empty 
 	 */
 	public ExceptionMain() {
 		// TODO Auto-generated constructor stub
@@ -22,7 +24,9 @@ public class ExceptionMain {
 		try {
 			FileInputStream fis = new FileInputStream("");
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			
+		}finally {
+			
 		}
 		Object obj = null;
 		obj.toString();
