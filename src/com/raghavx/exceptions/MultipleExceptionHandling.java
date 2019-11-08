@@ -1,4 +1,4 @@
-package com.raghavx;
+package com.raghavx.exceptions;
 
 import java.io.IOException;
 

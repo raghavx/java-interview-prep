@@ -1,4 +1,4 @@
-package com.raghavx;
+package com.raghavx.exceptions;
 /**
  * How to write custom exception 
  * @author raghav
